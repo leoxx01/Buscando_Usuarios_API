@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title></title>
+</head>
+<body>
+    <h1>Pesquisa de usuarios</h1>
+    <div class="container">
+        <div class="top" id='top'>
+            <label class="label-buscar">Busca</label>
+            <input id="busca" type="text">
+            <a id="search"class="waves-effect waves-light btn-small">Buscar</a>
+        </div>
+        <div class="infos">
+            <div id="data">
+                <h3 id="users">Nehum Usuário(s)<br>encontrado(s)</h3>
+                <div id='users-encotrados'>
+
+                </div>
+            </div>
+            <div id='div_statics'>
+                <h3>Estatísticas</h3>
+                <div id="statics">
+                    <strong></strong><p>Sexo Masculino:<strong><span id="gender_m"> 0</span></strong></p>
+                    <p>Sexo Feminino:<strong><span id="gender_f"> 0</span></strong></p>
+                    <p>Soma das idades:<strong><span id="age_sum"> 0</span></strong></p>
+                    <p>Média das idades:<strong><span id="media_age"> 0</span></strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
